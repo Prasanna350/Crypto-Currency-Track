@@ -1,0 +1,68 @@
+/* Write your CSS code here */
+.card-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tracker-main-head {
+  color: #00e7ff;
+}
+
+.tracker-main-img {
+  height: 70%;
+  width: 70%;
+}
+
+.box-border-div {
+  width: 60%;
+  margin-top: 30px;
+  border: 2px solid #00e7ff;
+  border-radius: 10px;
+}
+
+.box-titles-div {
+  background-color: #092e33;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+
+  padding-left: 20px;
+}
+
+.box-title-right-card {
+  align-self: flex-end;
+  display: flex;
+  width: 40%;
+}
+
+.head-titles {
+  margin: 0px;
+}
+
+.right-head-title {
+  margin: 0px;
+  width: 50%;
+  align-self: flex-end;
+}
+
+.currencies-list-card {
+  padding: 0px;
+  margin: 0px;
+}
+
+@media (max-width: 767px) {
+  .tracker-main-head {
+    font-size: 25px;
+  }
+  .box-border-div {
+    width: 300px;
+    margin-top: 30px;
+    border: 2px solid #00e7ff;
+    border-radius: 10px;
+  }
+}

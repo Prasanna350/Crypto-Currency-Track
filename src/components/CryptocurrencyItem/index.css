@@ -1,0 +1,37 @@
+/* Write your CSS code here */
+.currency-item-each-col {
+  list-style-type: none;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+.currency-item-logo-card {
+  display: flex;
+  align-items: center;
+}
+
+.item-currency-logo {
+  height: 20px;
+}
+
+.each-currency-name {
+  margin: 0px;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.currency-item-right-part {
+  width: 40%;
+  display: flex;
+}
+
+.currency-item-values {
+  margin: 0px;
+  width: 50%;
+  align-self: flex-end;
+  font-size: 12px;
+}
